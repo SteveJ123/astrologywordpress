@@ -1,0 +1,1792 @@
+
+body{
+
+    /* background-color:blue; */
+
+    font-family:Merriweather;
+
+}
+
+.center-element{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+.header-color, h1, h2, h3, h4{
+    color:#7DBA2F;
+}
+
+
+
+/* nav bar */
+
+.navbar.navbar-expand-lg{
+    /*background-color: #2C3459;*/
+
+    /*color: white;*/
+    background-color:#7DBA2F; color:white;
+
+}
+
+
+/* add menu icon to button */
+.navbar-toggler{
+    width: 14%;
+    height: 20%;
+    background-image: url(https://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2020/01/127-1276010_menu-hamburger-black-and-white-transparent-stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: center; */
+}
+
+
+.navbar-toggler:hover{
+    width: 14%;
+    height: 20%;
+    background-image: url(https://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2020/01/127-1276010_menu-hamburger-black-and-white-transparent-stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: center; */
+}
+
+
+.navbar-toggler[aria-expanded="true"] {
+ width: 14%;
+    height: 20%;
+    background-image: url(https://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2020/01/127-1276010_menu-hamburger-black-and-white-transparent-stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar-toggler.collapsed{
+    width: 14%;
+    height: 20%;
+    background-image: url(https://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2020/01/127-1276010_menu-hamburger-black-and-white-transparent-stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* header creating line above h tag */
+
+h1:not(.site-title):before,
+
+h2:before {
+
+  background: none;
+
+  content: "\020";
+
+  display: block;
+
+  height: 2px;
+
+  margin: 1rem 0;
+
+  width: 1em;
+
+}
+
+
+
+.header-text{
+
+    font-size: 32px;
+
+    color: #7DBA2F;
+
+}
+
+
+/*margin-bottom: 30px;*/
+.paragraph-text{
+
+    font-size: 18px;
+
+    font-weight: 300;
+
+    line-height: 1.6em;
+    
+
+}
+
+
+
+/* .circle1 {
+
+    width: 44px;
+
+    height: 44px;
+
+    border: 0.25px solid #9498ab;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    left: 304px;
+
+    bottom: 114px;
+
+    
+
+
+
+}
+
+
+
+.circle2{
+
+  height:128px;
+
+  width:128px;
+
+  border: 0.25px solid #9498ab;
+
+  border-radius:50%;
+
+  position: relative;
+
+    top: -200px;
+
+    left: 264px;
+
+	animation: pulse 2s infinite;
+
+    opacity: 0.5;
+
+
+
+}
+
+
+
+.circle3{
+
+  
+
+    height:234px;
+
+    width:234px;
+
+    border: 0.25px solid #9498ab;
+
+    border-radius:50%;
+
+    position: relative;
+
+    bottom: 385px;
+
+    left: 214px;
+
+	animation: pulse 2s infinite;
+
+    opacity: 0.25;
+
+}
+
+
+
+.circle4 {
+
+    height: 320px;
+
+    width: 320px;
+
+    border: 0.5px solid #9498ab;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    bottom: 658px;
+
+    left: 178px;
+
+    animation: pulse 2s infinite;
+
+    opacity: 0.15;
+
+} */
+
+
+
+/*.bottom{*/
+
+/*    border-left: 2px solid black;*/
+
+/*    width:40px;*/
+
+/*    height: 40px;*/
+
+/*    position:relative;*/
+
+/*    left:20px;*/
+
+/*  }*/
+
+  
+
+  .top{
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius:50%;
+
+    border: 2px solid black;
+
+    position: relative;
+
+      left: 15px;
+
+      position: relative;
+
+      left: 15px;
+
+    /* bottom: 34px; */
+
+    top: 0px;
+
+  }
+
+  
+
+  .circle1{
+
+    width:30px;
+
+    height:30px;
+
+    border: 2px solid #9498ab;
+
+    border-radius:50%;
+
+    position: relative;
+
+    left: 250px;
+
+    top: 164px;
+
+  }
+
+  
+
+  .circle2{
+
+    height:128px;
+
+    width:128px;
+
+    border: 2px solid #9498ab;
+
+    border-radius:50%;
+
+    position: relative;
+
+      top: 84px;
+
+      left: 203px;
+
+      animation: pulse 2s infinite;
+
+    opacity: 1;
+
+  
+
+  }
+
+  
+
+  .circle3{
+
+    
+
+      height:234px;
+
+      width:234px;
+
+      border: 2px solid #9498ab;
+
+      border-radius:50%;
+
+      position: relative;
+
+      bottom: 100px;
+
+      left: 153px;
+
+      animation: pulse 2s infinite;
+
+    opacity: 1;
+
+  }
+
+  
+
+  .circle4{
+
+    
+
+    height:346px;
+
+    width:346px;
+
+    border: 2px solid #9498ab;
+
+    border-radius:50%;
+
+    position: relative;
+
+      bottom: 392px;
+
+      left: 100px;
+
+      animation: pulse 2s infinite;
+
+    opacity: 1;
+
+  }
+
+  .circle-center-tip {
+
+    font-size: 13px;
+
+    color: #fff;
+
+    width: 200px;
+
+    padding-left: 24px;
+
+    border-radius: 2px;
+
+    margin-left: -100px;
+
+    left: 50%;
+
+    margin-top: -37px;
+
+    background-color:black;
+
+    position: relative;
+
+    top: 8px;
+
+}
+
+  
+
+.centertipdivbelow{
+
+    width:10px;
+
+        height:10px;
+
+        position:relative;
+
+        border: 2px solid #2C3459;
+
+        background-color: #2C3459;
+
+          left: 13px;
+
+          bottom: 1px;
+
+        transform: rotate(45deg);
+
+}
+
+
+
+.fa.fa-phone.phone-circle{
+
+    position: relative;
+
+    top: 6px;
+
+    left: 6px;
+
+    transform: rotate(50deg);
+
+}
+
+
+
+/* .fa-fa-home.phone-get-call{
+
+    transform: rotate(100deg);
+
+    position: relative;
+
+    /* bottom: 0px; */
+
+    /* top: -1px; */
+
+/* } */
+
+
+
+
+
+
+
+.bottom{
+
+    border-left: 2px solid #9498ab;
+
+    width:2px;
+
+    height: 146px;
+
+    position:relative;
+
+    left:20px;
+
+  }
+
+  
+
+  .top{
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius:50%;
+
+    border: 2px solid #9498ab;
+
+    position: relative;
+
+      left: 15px;
+
+  }
+
+/* contact form */
+
+.inputarea {
+    width: 100%;
+    background-color: #39d1b4;
+    height: 25%;
+    margin-bottom: 2%;
+    border: 1px solid #39d1b4;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+    font-size: 18px;
+}
+
+.text-area {
+    width: 100%;
+    background-color: #39d1b4;
+    height: 4em;
+    border: 1px solid #39d1b4;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+    font-size:18px;
+}
+
+#popmake-1224{
+    background-color: #39d1b4;
+}
+
+#wpcf7-f1060-p5-o2 {
+    /*background-color: #7DBA2F;*/
+}
+
+
+  .insurancecontent{
+
+    float:right;
+
+    position:relative;
+
+    left:32px;
+
+    float:right;
+
+    font-family: Merriweather;
+
+	/*color:#9498ab;*/
+
+	bottom:42px;
+
+}
+
+
+
+.calldiv{
+
+    height: 358px;
+
+/*    border: 1px solid gray */
+
+}
+
+
+
+/* .project-tab {
+
+    padding: 10%;
+
+    margin-top: -8%;
+
+    width: 980px;
+
+    z-index: 2;
+
+    padding: 0px;
+
+} */
+
+/* .container{
+
+    border: 1px solid gray;
+
+} */
+
+.project-tab #tabs{
+
+    background: #007b5e;
+
+    color: #eee;
+
+}
+
+.project-tab #tabs h6.section-title{
+
+    color: #eee;
+
+}
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+    color: #0062cc;
+
+    background-color: transparent;
+
+    border-color: transparent transparent #f3f3f3;
+
+    border-bottom: 3px solid !important;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+.project-tab .nav-link {
+
+    border: 1px solid transparent;
+
+    border-top-left-radius: .25rem;
+
+    border-top-right-radius: .25rem;
+
+    color: #0062cc;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+.project-tab .nav-link:hover {
+
+    border: none;
+
+}
+
+.project-tab thead{
+
+    background: #f3f3f3;
+
+    color: #333;
+
+}
+
+.project-tab a{
+
+    text-decoration: none;
+
+    color: #333;
+
+    font-weight: 600;
+
+}
+
+.quote-header{
+
+    font-family: Merriweather;
+
+    font-size: 32px;
+
+    margin-bottom: 0px;
+
+    color: #2C3459;
+
+    margin-top: 0px;
+
+    margin-left: 4px;
+
+    position: relative;
+
+    bottom: 30px;
+
+}
+
+.level-protection{
+
+    font-size: 16px;
+
+    margin: 4px 0 4px 0;
+
+}
+
+.quote-contact{
+
+    font-size: 16px;
+
+    margin: 20px 0px 10px 26px;
+
+}
+
+.quote-travel{
+
+    font-size: 16px;
+
+    margin: 20px 0px 10px 10px;
+
+}
+
+.input-box{
+
+    height: 46px;
+
+    width: 305px;
+
+    font-family: Merriweather;
+
+    font-size: 14px;
+
+    margin-left: 8px;
+
+    margin-top: 4px;
+
+}
+
+.btn.btn-primary{
+
+
+
+    height: 50px;    
+
+    margin-left: 8px;
+
+    margin-top: 4px;      
+
+    font-family: Merriweather;
+
+    border-radius: 2px;    
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.15s linear 0s;
+
+    outline: none;
+
+    text-decoration: none;
+
+    vertical-align: top;
+
+    border: 1px solid rgb(44, 52, 89);
+
+    color: rgb(44, 52, 89);
+
+    background: none;
+
+}
+
+
+
+.get-quote{
+    width:120px;
+
+    height: 50px;    
+
+    margin-left: 8px;
+
+    margin-top: 4px;      
+
+    font-family: Merriweather;
+
+    border-radius: 2px;    
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.15s linear 0s;
+
+    outline: none;
+
+    text-decoration: none;
+
+    vertical-align: top;
+
+    border: 1px solid rgb(44, 52, 89);
+
+    color: rgb(44, 52, 89);
+
+    background: none;
+
+
+
+}
+
+.getquote:hover{
+    
+}
+
+
+
+.get-quote-button-adjust{
+
+    position: relative;
+
+    bottom: 54px;
+
+}
+
+
+
+
+#health-checkbox{
+
+    font-family: Merriweather;
+
+    font-size: 14px;
+
+}
+
+#health-checkbox{
+
+    margin-left: 8px;
+
+}
+
+#tabs{
+
+    display: none;
+
+    position:fixed;
+
+    left:226px;
+
+    top:178px;
+
+    padding: 10%;
+
+    margin-top: -8%;
+
+    width: 980px;
+
+    z-index: 1;
+
+    padding: 0px;
+
+    background-color: #fdfbfb;
+
+}
+
+
+
+#insuranceid{
+
+    background-color:blue;
+
+}
+
+
+
+.carloan{
+
+	background-image: url(http://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2019/11/in-the-car-1.jpg);
+
+    height: 650px;
+
+    width: 252px;
+
+    margin-top: 14px;
+
+	background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: 60% 50%;
+
+}
+
+
+
+.pop-up-image{
+
+    background-image: url(http://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2019/11/modern-town-houses-1.jpg);
+
+    height:546px;
+
+    width:252px;
+
+     background-size: cover; 
+
+     background-repeat: no-repeat; 
+
+     background-position: 60% 50%;
+
+}
+
+.lifeloan{
+
+    background-image: url(http://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2019/11/senior-lady-teaching-her-granddaughter-to-knit-1.jpg);
+
+    height:650px;
+
+    width:252px;
+
+     background-size: cover; 
+
+     background-repeat: no-repeat; 
+
+     background-position: 60% 50%;
+
+}
+
+.travelingloan{
+
+    background-image: url(http://insurancecompanylatest.000webhostapp.com/wp-content/uploads/2019/11/happiness-couple-1.jpg);
+
+    height:650px;
+
+    width:252px;
+
+     background-size: cover; 
+
+     background-repeat: no-repeat; 
+
+     background-position: 60% 50%;
+
+}
+
+
+
+.font-awesome-container{
+
+    display:inline-block;
+
+    margin: 10px;
+
+    text-align: center;
+
+    cursor:pointer;
+
+}
+
+.span-container{
+
+
+
+    /* display:inline-block; */
+
+    font-family: Merriweather;
+
+    font-size: 12px;
+
+}
+
+#close-button{
+
+    float:right;
+
+    position: relative;
+
+    left: 18px;
+
+    bottom: 54px;    
+
+    width: 17px;
+
+    height: 30px;
+
+    background-color: #03f703;
+
+    text-align: center;
+
+}
+
+.project-tab .container{
+
+    padding: 0px;
+
+}
+
+
+
+/* .insurance-image-holder-popup{
+
+    width: 260px;
+
+} */
+
+
+
+/* div.wpforms-container-full .wpforms-form input[type=submit], 
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+
+    background-color: #FAF243; /* Yellow background */
+
+/* } */
+
+
+
+
+
+input[type="submit"]{
+
+    height: 50px;
+
+    width:120px;
+
+    margin-left: 8px;
+
+    margin-top: 4px;
+
+    font-family: Merriweather;
+
+    border-radius: 2px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.15s linear 0s;
+
+    outline: none;
+
+    text-decoration: none;
+
+    vertical-align: top;
+
+    border: 1px solid rgb(44, 52, 89);
+
+    color: rgb(44, 52, 89);
+
+    background: none;
+
+}
+
+
+
+.rangeslider{ 
+
+    width: 50%; 
+
+} 
+
+  
+
+.myslider { 
+
+    -webkit-appearance: none; 
+
+    background: #FCF3CF  ; 
+
+    width: 618px; 
+
+    height: 20px; 
+
+    opacity: 2; 
+
+   } 
+
+  
+
+  
+
+.myslider::-webkit-slider-thumb { 
+
+    -webkit-appearance: none; 
+
+    cursor: pointer; 
+
+    background: #34495E  ; 
+
+    width: 5%; 
+
+    height: 20px; 
+
+} 
+
+  
+
+  
+
+.myslider:hover { 
+
+    opacity: 1; 
+
+} 
+
+
+
+.service-desc{
+
+    
+
+    position: relative;
+
+    right: 320px;
+
+    top: 24px;
+
+}
+
+
+
+#messagebox{
+
+    margin-top: 4px;
+
+    margin-left: 20px;
+
+    height: 120px;
+
+}
+
+
+
+.company-information{
+
+    font-size: 24px;
+
+    color: rgb(44, 52, 89);
+    color:white;
+
+}
+
+
+
+.fa-car:before {
+
+  content: "\f1b9"; }
+
+  
+
+  #wpcf7-f224-p5-o4{
+
+      position: relative;
+
+    bottom: 20px;
+
+  }
+
+.insurance-icon{
+    background-color: #7DBA2F;
+}
+
+.healthsubmit{
+    position: relative;
+    bottom: 32px;
+    left: 220px;
+}
+
+.service-col-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.service-paragraph-container{
+    box-sizing: border-box;
+    width: 396px;
+    font-size: 18px;
+}
+
+.service-paragraph{
+    margin-top: 16px;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.service-top-line{
+    width: 90px;
+    height: 0px;
+    border: 1px solid black;
+    position: absolute;
+    /* right: -303px; */
+    top: 81px;
+    left: 20px;
+}
+
+.service-bottom-line{
+    width: 0px;
+    height: 90px;
+    border: 1px solid black;
+    position: absolute;
+    /* right: 576px; */
+    top: 81px;
+    left: 19px;
+}
+
+.service-image-right{
+    padding-top: 114px;
+}
+
+.service-top-line-right{
+    /*width: 90px;*/
+    /*height: 0px;*/
+    /*border: 1px solid black;*/
+    /*position: absolute;*/
+    /*right: 76px;*/
+    width: 90px;
+    height: 0px;
+    border: 1px solid black;
+    position: absolute;
+    /* right: 76px; */
+    top: 442px;
+    right: 74px;
+}
+
+.service-bottom-line-right{
+    width: 0px;
+    height: 90px;
+    border: 1px solid black;
+    position: absolute;
+    right: 74px;
+}
+
+.insurance-consulting-process .display{
+    display: flex;
+    margin-top: 1%;
+}
+
+.insurance-consulting-process .number{
+    background: #3cb794;
+    width: 40px;
+    color: white;
+    padding: 1.25%;
+}
+
+.insurance-consulting-process .text{
+    background-color: #26A1B0;
+    color: white;
+    width: 100%;
+    padding: 1.8%;
+}
+
+
+/* Indiviual service page */
+
+.align-center{
+    text-align: center;
+}
+
+.align-text{
+    padding-left: 90px;
+    padding-right: 40px;
+}
+
+.insurance-paragraph{
+    color: rgb(255, 155, 65);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none;
+}
+
+.bannerWrapleft{
+    margin: 0px; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; float: left; width: 444.141px;
+}
+
+.bannerImgWrap{
+    margin: 0px auto; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; max-width: 478px; width: 444.141px; position: relative;
+    
+}
+
+.insurance-get-started{
+    margin: 0px; padding: 70px 70px 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; font-family: AllianzB; font-size: 1.6rem; line-height: 1.4; text-align: center; color: rgb(0, 114, 188); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;
+}
+
+.bannerCircle{
+    margin: 0px; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 50%; box-sizing: border-box; -webkit-font-smoothing: antialiased;  width: 435px; height: 435px; position: relative; transform: scale(1); transition: all 0.5s ease 0s;
+}
+
+.bannerCircleText{
+    margin: 0px; padding: 0px 87px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; width: 435px; text-align: center; color: rgb(255, 255, 255); font-family: AllianzB; font-size: 1.8rem; opacity: 1; position: relative; top: 30.9375px; transition: all 0.2s ease 0.2s;
+}
+
+.bannerCircleImg{
+    margin: 0px; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; opacity: 1; width: 435px; position: relative; top: 43.5px; display: block; transition: all 0.5s ease 0.5s;
+}
+
+.vehicleNumberInput{
+    margin: 0px auto 30px; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border-top: none; border-right: none; border-bottom: 1px solid rgb(0, 114, 188); border-left: none; border-image: initial; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; max-width: 270px; text-align: center; width: 270px; position: relative; color: rgb(0, 85, 150); font-family: AllianzSans; font-size: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;
+}
+
+.protectWheelGo{
+    margin: 0px auto; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; text-align: center; width: 444.141px; color: rgb(0, 85, 150); font-family: AllianzSans; font-size: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;
+}
+
+/* footer */
+
+.footer-container{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#000000c7; color:white
+}
+
+.footer-info{
+    
+    width:350px;
+    /*height:300px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-paragraph{
+    margin: 0px;
+    padding: 0px;
+    font-family: Merriweather;
+}
+
+/* benefits working with us */
+
+.benefits-ticks{
+    box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-size: 18px; color: rgb(47, 55, 61); text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;
+}
+
+.references{
+margin: 0px;
+padding: 0px;
+border-bottom: 1px solid rgb(238, 238, 238);
+background: rgb(245, 245, 245);
+color: rgb(0, 0, 0);
+font-weight: 400;
+letter-spacing: normal;
+orphans: 2;
+text-align: start;
+text-indent: 0px;
+text-transform: none;
+white-space: normal;
+widows: 2;
+word-spacing: 0px;
+-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;
+text-decoration-color: initial;
+}
+
+.references .left{
+    margin: 0px; padding: 0px; width: 532.5px; margin-left: auto; margin-right: auto;
+}
+
+.references .left .left-container{
+    margin: 40px 0px 0px; padding: 0px; font-family: Signika; position: relative; min-height: 204px;
+}
+
+.reference-paragraph{
+    margin: 0px 0px 20px; padding: 0px; color: rgb(148, 152, 171); font-size: 16px; font-weight: 300; line-height: 1.6em;
+}
+
+.single-reference{
+    margin: 0px; padding: 0px; font-family: Signika; position: absolute; top: 0px; display: block;
+          
+}
+
+.single-reference-content{
+    margin: 0px; padding: 30px 30px 10px; font-family: Signika; border: 1px solid rgb(229, 229, 229); background: rgb(253, 253, 253); border-radius: 2px; position: relative;
+}
+
+.single-reference-author{
+    margin: 0px; padding: 12px 120px 0px 0px; font-family: Signika; color: rgb(148, 152, 171); display: block; font-size: 13px; font-weight: 300; text-align: right;
+}
+
+.strong{
+    margin: 0px; padding: 0px; font-family: Signika; color: rgb(125, 186, 47); display: block; text-transform: uppercase; font-weight: 800;
+}
+
+.references .right{
+    margin: 0px; padding: 0px; width: 532.5px; margin-left: auto; margin-right: auto;
+}
+
+.right-container{
+    margin: 40px 0px 0px; padding: 0px; font-family: Signika; position: relative; min-height: 204px;
+}
+
+/* service page */
+#wpcf7-f1460-p865-o2 input[type=text]{
+    margin: 0px; padding: 10px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; font-family: AllianzSans; font-size: 1.2rem; line-height: 1.4; text-align: center; width: 270px; color: rgb(117, 117, 117);
+}
+
+#wpcf7-f1460-p865-o2 input[type=tel]{
+    margin: 0px; padding: 10px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; font-family: AllianzSans; font-size: 1.2rem; line-height: 1.4; text-align: center; width: 270px; color: rgb(117, 117, 117);
+}
+
+#wpcf7-f1460-p865-o2 input[type=submit]{
+    margin: 0px auto; padding: 8px 30px 10px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: 1px solid rgb(248, 156, 48); border-radius: 50px; box-sizing: border-box; -webkit-font-smoothing: antialiased; color: white; font-size: 1.4rem; line-height: 1.4; text-decoration: none; cursor: pointer; background: rgb(248, 156, 48); display: block; clear: both; position: relative; overflow: hidden; z-index: 1; text-align: center; font-family: AllianzB; letter-spacing: 1px; width: 270px; max-width: 270px;
+}
+
+.service-text-area{
+    width: 100%;
+    height: 4em;
+    border: solid 1px #ccc;
+}
+
+.btn-link:hover {    
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+    font-size: .8em;
+
+}
+
+.pl-4 h5{
+    color: rgb(0, 123, 255);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.auto-service, .health-service, .travel-service, .home-service {
+  list-style: none; /* Remove default bullets */
+}
+
+.auto-service li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: green; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.health-service li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blue; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.travel-service li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: aqua; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.home-service li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: brown; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* input field */
+#wpcf7-f1060-p5-o2 input[type=submit], #wpcf7-f1060-o1 input[type=submit] {
+    background-color: #eee; /* Grey background */
+  width: 100%;
+	font-size: 20px;
+    padding: 10px;
+}
+
+#wpcf7-f1060-p5-o2 input[type=text], #wpcf7-f1060-p5-o2 input[type=email], #wpcf7-f1060-p5-o2 input[type=tel], #wpcf7-f1060-o1 input[type=text], #wpcf7-f1060-o1 input[type=email], #wpcf7-f1060-o1 input[type=tel] {
+  background-color: #39d1b4; /* Grey background */
+  width: 100%;
+	border: 1px solid #39d1b4;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+	font-size:18px;
+}
+
+#wpcf7-f1460-p626-o2 input[type=text], #wpcf7-f1460-p626-o2 input[type=tel], #wpcf7-f1460-p870-o2 input[type=text], #wpcf7-f1460-p870-o2 input[type=tel], #wpcf7-f1460-p874-o2 input[type=text], #wpcf7-f1460-p874-o2 input[type=tel]{
+	 margin: 0px;
+    padding: 10px;
+    outline: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: AllianzSans;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    width: 270px;
+    color: rgb(117, 117, 117);
+}
+#wpcf7-f1460-p626-o2 input[type=submit], #wpcf7-f1460-p870-o2 input[type=submit], #wpcf7-f1460-p874-o2 input[type=submit]{
+	margin: 0px auto;
+    padding: 8px 30px 10px;
+    outline: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid rgb(248, 156, 48);
+    border-radius: 50px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(248, 156, 48);
+    display: block;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    font-family: AllianzB;
+    letter-spacing: 1px;
+    width: 270px;
+    max-width: 270px;
+}
+
+
+#wpcf7-f1560-p5-o3 input[type=tel]{
+	width: 100%;
+	height:100%;
+}
+
+#wpcf7-f1560-p5-o3 input[type=submit]{
+	background-color: #eee;
+	height:100%;
+}
+.get-quote-button:hover {
+    background-color: #eee; /* Grey background */  
+}
+.popmake-1224:focus{
+ background-color: blue; /* Grey background */  
+	
+}
+
+/* #wpcf7-f1460-p626-o2 input[type=text]{
+	margin: 0px;
+    padding: 10px;
+    outline: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: AllianzSans;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    width: 270px;
+    color: rgb(117, 117, 117);
+} */
+
+.popmake-1224:hover{
+	background-color: blue; /* Grey background */  
+}
+
+/* navbar */
+
+.callus{
+    text-align:center; font-size:14px; background-color:#7DBA2F; color:white; padding:0px; margin:0px;
+}
+
+.navbar.navbar-expand-lg a, .collapse.navbar-collapse a{
+    color:white;
+}
+
+.navbar.navbar-expand-lg ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    width: 57%;
+    justify-content: space-around;
+}
+
+.copyright{
+    margin-top:40px; font-family:poppins;font-size:14px; font-weight:400;
+}
+
+.image-text{
+    padding-top: 200px;
+}
+
+@media only screen and (max-width: 998px){
+    .service-col-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        padding-left: 158px;
+    }
+    .service-paragraph-container{
+        box-sizing: border-box;
+        width: 390px;
+        font-size: 18px;
+    }
+
+    
+    .service-top-line-right{
+        width: 90px;
+        height: 0px;
+        border: 1px solid black;
+        position: absolute;
+        right: 18px;
+    }
+    
+    .service-bottom-line-right{
+        width: 0px;
+        height: 90px;
+        border: 1px solid black;
+        position: absolute;
+        right: 18px;
+    }
+    
+    .navbar.navbar-expand-lg ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 57%;
+}
+
+.image-text{
+    padding-top: 0px;
+    padding-bottom: 150px;
+}
+}
+
+@media only screen and (max-width: 600px){
+ .image-text{
+    padding-top: 0px;
+    padding-bottom: 150px;
+}   
+}
+
+
+.element{
+    margin: 0px 5px;
+    padding: 0px;
+    outline: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    width: 10px;
+    height: 10px;
+    background: rgb(204, 204, 204);
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.element2{
+    margin: 0px 5px;
+    padding: 0px;
+    outline: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    width: 10px;
+    height: 10px;
+    background: rgb(204, 204, 204);
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.element3{
+    margin: 0px 5px; padding: 0px; outline: none; list-style: none; -webkit-tap-highlight-color: transparent; border: none; border-radius: 50px; box-sizing: border-box; -webkit-font-smoothing: antialiased; font-size: 1.8rem; line-height: 1.4; width: 10px; height: 10px; background: rgb(204, 204, 204); text-indent: -9999px; display: inline-block; cursor: pointer;
+}
+
+
+.shadow-active{
+    background-color: #f89c30;    
+}
+
+.insPolicyTabsWrap .insPolicyTabsListWrap {
+    width: 100%;
+    float: left;
+    background: #005596;
+    text-align: center;
+}
+
+.policy-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.policy-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.policy-tab #tabs h6.section-title{
+    color: #eee;
+}
+.policy-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.policy-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.policy-tab .nav-link:hover {
+    border: none;
+}
+.policy-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.policy-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+#leadership {
+    background-color: #fffbfc;
+    padding: 100px 0;
+  }
+  #leadership .accordion .card {
+    border: none;
+  }
+  #leadership .accordion .card img {
+    height: 64px;
+    width: 64px;
+  }
+  #leadership .accordion .card .accordion-group .card-header {
+    background-color: #fffbfc;
+    padding: 10px;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
+  #leadership .accordion .card .accordion-group .card-header:hover {
+    background-color: #edb348;
+  }
+  #leadership .accordion .card .accordion-group .card-header a {
+    text-decoration: none;
+    color: #000;
+  }
+  #leadership .accordion .card .accordion-group .card-header a:hover {
+    color: white;
+  }
+
+  section{
+	padding: 60px 0;
+}
+
+#accordion-style-1 h1,
+#accordion-style-1 a{
+    color:#007b5e;
+}
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+    color: #007b5e;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+	padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid #007b5e;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main{
+	background: #007b5e;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}
+
+.register-your-claim{
+    width: 400px;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    color: orange;
+    background-color: gray;
+
+}
+
+.register-your-claim1{
+        width: 400px;
+        height:100px;
+        padding: 15px 25px;
+        color: blue;
+      
+}
+
+.register-your-claim:after{
+    content:"→";
+}
+
+/* arrange div */
+
+.wrap {
+    width: 100%;
+      text-align: center;
+  }
+  .wrap .column {
+      display: inline-block;
+      width: 330px;
+      height: 470px;
+      margin: 20px;
+  }
+  
+  .settle-insurance{
+      background-color:#009688; height: 100%; height: auto; width: auto; overflow: auto;
+  }

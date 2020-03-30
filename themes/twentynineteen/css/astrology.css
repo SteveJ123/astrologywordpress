@@ -1,0 +1,175 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size:18px;
+}
+
+/* header creating line above h tag */
+h1:before, h2:before {
+    opacity: 0;
+}
+
+.display-inline-block{
+    display:inline-block;
+}
+
+.center-element{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.navbar.navbar-expand-lg{
+    background-color: #f07474;
+}
+
+.navbar.navbar-expand-lg a{
+    color:white;
+}
+
+.navbar.navbar-expand-lg ul{
+    display:flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.navbar.navbar-expand-lg .navbar-brand{
+    padding-left: 105px;
+}
+
+.social-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+}
+
+.social-link.container-fluid{
+    padding:0px;
+    height:80px;
+}
+
+.social-link i{
+    margin-left:4%;
+}
+
+.vastu h3, .vastu h4{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: center;
+
+}
+
+.vastu h5{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.vastu li {
+    line-height: 2.5em;
+}
+
+.consultation{        
+    background-color: #f07474;
+    color: white;
+}
+
+.consultation h4, .consultation p, .consultation h5{
+    line-height: 2.5em;
+}
+
+.fl-row.fl-row-fixed-width.fl-row-bg-none.fl-node-5e19cb4ccb5b8{
+    background-color: #313D53;
+    color: white;
+}
+
+.testimonial-header{
+    text-align: center;
+}
+
+.testimonial-name{
+    font-weight: 600;
+}
+
+.testimonial-text{
+    color:#47999a;
+}
+
+.testimonial-row{
+    background-color: #80808026;
+}
+
+.testimonial-image-holder{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.testimonial-image{
+    box-sizing: content-box; margin: 0px 30px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; text-size-adjust: 100%; border-radius: 120px; display: block; float: left; position: relative; width: 90px; height: 90px;
+}
+
+/* contact form */
+
+#wpcf7-f88-p277-o1{
+    background-color: #ff000094;
+    padding-left: 54px;
+}
+
+#wpcf7-f88-p277-o1 h3{
+    /* text-align: center; */
+    padding-left: 20%;
+}
+
+#wpcf7-f88-p277-o1 input[type="text"], #wpcf7-f88-p277-o1 input[type="email"], #wpcf7-f88-p277-o1 input[type="tel"], #wpcf7-f88-p277-o1 input[type="date"], #wpcf7-f88-p277-o1 textarea, #wpcf7-f88-p277-o1 input[type="submit"]{
+    width:90%;
+}
+
+/* our service */
+
+.our-service-container{
+     width: 400px;
+}
+
+.our-service-container h4{
+    margin-left:8%;
+}
+
+.our-service-container + p{
+    margin-left: 16%;
+}
+
+.service a{
+    color:white;
+}
+
+.button-bottom{
+    
+}
+
+.paragraph-block{
+    width: 300px;
+    height: 260px;
+}
+
+.our-service-container span{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* footer */
+
+.footer ul{
+    list-style-type:none;
+}
+
+
+
+
+
+
+
+
+
